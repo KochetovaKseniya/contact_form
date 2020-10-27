@@ -1,0 +1,120 @@
+html, body {
+   display: flex;
+   flex-flow: column nowrap;
+   min-height: 100vh;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   background: url(D:/GitHub/hw_form/icon/img.png)  repeat-y;
+  
+  }
+ 
+ header {
+   display: flex;
+   flex-flow: column nowrap;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   padding: 0 1em;
+   margin-bottom: 1em;
+ }
+ h1 {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: bold;
+   font-size: 3.5em;
+   margin-bottom:0.5em;
+  }
+ header p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  font-size: 0.8em;
+  width: 22em;
+  margin:0;
+  line-height: 1.5;
+ }
+ main {
+   display: flex;
+   flex-flow: row nowrap;
+   flex: 1 1 auto;
+ }
+ 
+ main aside {
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: center;
+   flex: 0 1 200px;
+   padding: 1em;
+   width: 40em;
+   padding: 1em;
+   margin:0;
+ }
+
+ main aside .address,
+ main aside .email,
+ main aside .phone { 
+
+   margin:0.2em; 
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+ }
+
+ h3{
+   margin:0;
+   text-transform: uppercase;
+   font-size: 1em;
+
+ }
+
+ main article {
+   
+ }
+
+ main article form {
+   display: flex;
+   flex-flow: column nowrap;
+   flex: 1 1 auto;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   width: 40em;
+   padding: 1em;
+   margin:1em;
+   
+ }
+.field input[type="text"], 
+.field textarea {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  border-radius: 5px;
+  
+  padding: 1em;
+  width: 20em;
+  margin:1em;
+  background-color: #64c6b9;
+  color: white; 
+  opacity: 0.7; 
+
+ }
+
+ .form .field textarea, 
+ .form .field textarea:focus, 
+ .form .field input[type="text"], 
+ .form .field input[type="text"]:focus {
+   position: relative;
+   display: flex;
+   flex-flow: column nowrap;
+   border-radius: 5px;
+   border: 1px solid #64c6b9;
+   padding: 0.5em;
+ }
+ 
+
+ footer {
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   padding: 1em;
+   background-color: #343535;
+ }
+ 
